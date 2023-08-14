@@ -1,0 +1,79 @@
+* {
+    font-family: "Times New Roman";
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: #005677;
+}
+
+header {
+    text-align: center;
+}
+
+header section {
+    height: 400px;
+    background-image: url('../img/arkham.jpg');
+    background-size: cover;
+}
+
+header img {
+    position: relative;
+    height: 146.37px;
+    top: 250px;
+}
+
+header h1 {
+    margin: 0;
+    letter-spacing: 10px;
+    background-color: #C4C4C4;
+}
+
+section h2 {
+    font-size: 18px;
+    padding: 3px 10px;
+    background-color: #C4C4C4;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section:nth-child(2) ul li>span:nth-child(3),
+section:nth-child(3) ul li>span:nth-child(3) {
+    display: block;
+    padding-left: 80px;
+}
+
+main {
+    height: 100vh;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: #005677;
+    color: white;
+    text-align: center;
+}
+
+footer h3,
+footer ul {
+    display: inline-block;
+}
+
+footer ul li {
+    padding: 10px;
+    display: inline;
+}
+
+footer ul li img {
+    height: 20px;
+    width: 20px;
+}
